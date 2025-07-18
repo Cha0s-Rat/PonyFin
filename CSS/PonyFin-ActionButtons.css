@@ -51,7 +51,8 @@
 }
 
 /* Rarity Watched Icon */
-.playstatebutton-icon-unplayed.check.detailButton-icon.material-icons:after {
+.playstatebutton-icon-unplayed.check.detailButton-icon.material-icons:after,
+.playstatebutton-icon-played.check.detailButton-icon.material-icons:after {
         content: ""; 
     background: url("https://i.ibb.co/zTPLCnGq/watched.gif") 
         no-repeat center center;
@@ -98,3 +99,21 @@
     opacity: 90%
 }
 
+
+/* Lyra Delete Icon */
+.delete.material-icons::before  { 
+visibility:hidden 
+}
+.delete.material-icons::after {
+    content: ""; 
+    background: url("https://i.ibb.co/0R5BTHys/delete.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+   width: 50px; 
+    height: 50px;
+    z-index: 3;
+    transform: translateY(-10px)  translateX(-10px)!important;
+}
