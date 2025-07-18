@@ -3,6 +3,7 @@
 # **MLP-inspired theme for Jellyfin WebUI**
 ### **Fork of [Flow](https://github.com/LitCastVlog/Flow/), [Scyfin](https://github.com/loof2736/scyfin/), [Ultrachromic](https://github.com/CTalvio/Ultrachromic)**
 
+
 [Go to installation](#installation)
 
 ---
@@ -28,12 +29,13 @@
 Install Base Theme (Flow): 
 
 `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/ScyFlow-main.css');`
+
  Install Spinner/Progress Bar: 
  
 `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-main.css');`
  <img src="./images/PonyFin-SpinnerScreen.gif" width="100%"/>
  
-Install Home Icons:
+Install Home Icons (Need to zoom out if icons are cut off, doesn't work on mobile, will release a mobile fix eventually):
 
 `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-HomeButtons.css');` 
  <img src="./images/PonyFinScreen.gif" width="100%"/>
