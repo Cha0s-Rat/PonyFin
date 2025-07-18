@@ -1,0 +1,185 @@
+/* Home Button Art */
+/* art credits: BotChan-MLP on DevianArt */
+/* Twilight Book JF Logo */
+.pageTitleWithDefaultLogo {
+    background-image: url("https://i.ibb.co/nNKTp1kd/pf.gif");
+}
+
+/* Resize Home Button */
+.emby-button.homeLibraryButton
+{
+    height: 70px
+}
+/* Twilight Default Icon */
+.emby-button.homeLibraryButton::after {
+    content: ""; 
+    background: url("https://i.ibb.co/206FZms1/button.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 120px; 
+    height: 115px;
+    z-index: 3;
+    transform: translateY(-8px)  translateX(-50px)!important;
+}
+
+/* Twilight Book Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(6)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/FqJD4HYw/button3.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 130px; 
+    height: 120px;
+    z-index: 3;
+    transform: translateY(-27px)  translateX(160px)!important;
+}
+
+/* Pinkie Home Icon*/
+.emby-button.homeLibraryButton.raised:nth-of-type(9)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/kgvMSdMT/button5.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-27px)  translateX(160px)!important;
+}
+
+/*  Sweetie Bell Home Icon */ 
+.emby-button.homeLibraryButton.raised:nth-of-type(4)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/whx4PSWL/music.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 140px; 
+    height: 110px;
+    z-index: 3;
+    transform: translateY(-29px)  translateX(150px)!important;
+}
+
+/* Derpy Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(7)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/k6z6jDyz/button6.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 110px; 
+    height: 110px;
+    z-index: 3;
+    transform: translateY(-15px)  translateX(160px)!important;
+}
+
+/* Rarity Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(5)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/0VcFKWPK/Button4.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 85px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-17px)  translateX(160px)!important;
+}
+
+
+/* Fluttershy Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(1)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/C3QRFt21/button1.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 90px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-23px)  translateX(165px)!important;
+}
+
+
+/* Trixie Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(3)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/RTCX5cmQ/button2.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 78px; 
+    height: 78px;
+    z-index: 3;
+    transform: translateY(-10px)  translateX(165px)!important;
+    
+}
+
+/* Pinkie Home Icon*/
+.emby-button.homeLibraryButton.raised:nth-of-type(8)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/99BBw3tL/button8.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 130px; 
+    height: 130px;
+    z-index: 3;
+    transform: translateY(-55px)  translateX(160px)!important;
+}
+/* AppleJack Home Icon*/
+.emby-button.homeLibraryButton.raised:nth-of-type(2)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/rGFb3r1C/button7.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+   width: 80px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-15px)  translateX(165px)!important;
+}
+
+
+
+
+/* Spike Logout Icon */
+.exit_to_app.navMenuOptionIcon.material-icons { 
+visibility: hidden
+}
+.emby-button.btnLogout.lnkMediaFolder.navMenuOption::after {
+    content: ""; 
+    background: url("https://i.ibb.co/RfWdLHP/logout.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+   width: 65px; 
+    height: 65px;
+    z-index: 3;
+    transform: translateY(-15px)  translateX(-15px)!important;
+}
+

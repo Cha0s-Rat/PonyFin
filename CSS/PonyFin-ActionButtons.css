@@ -1,0 +1,100 @@
+/* Action/Media Button Art */
+/* art credits: BotChan-MLP on DevianArt */
+/* Twilight Play Icon */
+.emby-button.detailButton.btnPlay.button-flat:before {
+    content: ""; 
+    background: url("https://i.ibb.co/FqJD4HYw/button3.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 180px; 
+    height: 185px;
+    z-index: 3;
+    transform: translateY(-105px)  translateX(-80px)!important;
+        pointer-events: none;
+
+}
+
+
+/* Fluttershy Heart Icon */
+.emby-button.detailButton.btnUserRating.button-flat:before {
+    content: ""; 
+    background: url("https://i.ibb.co/rGnXDtv2/love.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 80px; 
+    height: 80px;
+    z-index: 3;
+    transform: translateY(-56px)  translateX(-5px)!important;
+    opacity: 70%
+}
+
+/* Pinkie Shuffle Icon */
+.shuffle.detailButton-icon.material-icons::after {
+    content: ""; 
+    background: url("https://i.ibb.co/p69HJxns/shuffle.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 60px; 
+    height: 60px;
+    z-index: 3;
+    transform: translateY(-45px)  translateX(-5px)!important;
+    opacity: 90%
+}
+
+/* Rarity Watched Icon */
+.playstatebutton-icon-unplayed.check.detailButton-icon.material-icons:after {
+        content: ""; 
+    background: url("https://i.ibb.co/zTPLCnGq/watched.gif") 
+        no-repeat center center;
+      background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 60px; 
+    height: 60px;
+    z-index: 3;
+    transform: translateY(-42px)  translateX(-5px)!important;
+    opacity: 90%
+}
+
+/* Spike Options Icon */
+.more_vert.detailButton-icon.material-icons:after {
+        content: ""; 
+    background: url("https://i.ibb.co/V7G4S8L/options.gif") 
+        no-repeat center center;
+      background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 55px; 
+    height: 55px;
+    z-index: 3;
+    transform: translateY(-42px)  translateX(6px)!important;
+    opacity: 90%
+}
+
+/* Applejack Trailer Icon */
+.theaters.detailButton-icon.material-icons:after {
+        content: ""; 
+    background: url("https://i.ibb.co/wrhqcGPF/trailer.gif") 
+        no-repeat center center;
+      background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 55px; 
+    height: 55px;
+    z-index: 3;
+    transform: translateY(-40px)  translateX(6px)!important;
+    opacity: 90%
+}
+
