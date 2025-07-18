@@ -1,37 +1,69 @@
-<img src="./images/logo.png" width="50%"/>
+<img src="./images/PonyFin.gif" width="50%"/>
 
-# **Plex-inspired theme for Jellyfin WebUI**
-### **Built on [Scyfin](https://github.com/loof2736/scyfin/), [Ultrachromic](https://github.com/CTalvio/Ultrachromic)**
+# **MLP-inspired theme for Jellyfin WebUI**
+### **Fork of [Flow](https://github.com/LitCastVlog/Flow/), [Scyfin](https://github.com/loof2736/scyfin/), [Ultrachromic](https://github.com/CTalvio/Ultrachromic)**
 
 [Go to installation](#installation)
 
-Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-jelyfin)
-
 ---
-<img src="./images/screen.jpg" width="100%"/>
+<img src="./images/PonyFinScreen.gif" width="100%"/>
 
-<img src="./images/details.png" width="100%"/>
+<img src="./images/PonyFinScreen.png" width="100%"/>
 
-### **Outline Cards on hover**
-<img src="./images/outline_hover.gif" width="100%"/>
-<img src="./images/outline.gif" width="100%"/>
-
-### **Backdrop Support**
+### PonyFin Features
+- Home Button Icons 
+      <img src="./images/PonyFinScreen.gif" width="100%"/>
+ - Action Button Icons 
+      <img src="./images/ponybuttons.gif" width="100%"/>
+ - Pinkie Spinner 
+      <img src="./images/PonyFin-SpinnerScreen.gif" width="100%"/>
+ - Nyan Rainbow Dash Progress Bar 
+      <img src="./images/NyanRainbowDash.gif" width="100%"/>
+ 
+### **Enable Backdrop Support**
 <img src="./images/backdrop_setting.gif" width="100%"/>
 
-### Base Theme
-`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-main.css');`
 
+### Install PonyFin (Manual): 
+Install Base Theme (Flow): 
+
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/ScyFlow-main.css');`
+ Install Spinner/Progress Bar: 
+ 
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-main.css');`
+ <img src="./images/PonyFin-SpinnerScreen.gif" width="100%"/>
+ 
+Install Home Icons:
+
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-HomeButtons.css');` 
+ <img src="./images/PonyFinScreen.gif" width="100%"/>
+ 
+Install Action Buttons:
+
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-ActionButtons.css');`
+ <img src="./images/ponybuttons.gif" width="100%"/>
+ 
+Install Rainbow Animated BG Overlay (Enable Backdrops):
+ 
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-AnimatedBGRainbow.css');`
+
+Install Rainbow Theme (Doesn't work on JMP, defaults to Pink):
+
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Rainbow.css');` 
+ 
+
+---
+Flow/Scyfin Addons:
 
 ### Extras (*smaller cast/crew, etc*) 
-`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Extras.css');`
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/ScyFlow-Extras.css');`
 
  - B/W Logo (credits: [RoyalxZealot](https://www.steamgriddb.com/logo/128502))
  - Smaller Cast/Crew section
  - Hide "Upcoming on TV" and "Next Up" section in Season View
 
 ### Options (Add these after/under the base theme)
-- Enable Collapsable Drawer/Menu 
+- Enable Collapsible Drawer/Menu 
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Drawer-Toggle.css');`
       <img src="./images/drawer-toggle.gif" width="100%"/>
 - Bigger logo (for High DPI/Jellyfn Media Player)
@@ -42,8 +74,10 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
       <img src="./images/episodegrid_uc.png" width="100%"/>
 - Round Cast/Crew/Guests
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFLow-RoundCastCrew.css');`
-      <img src="./images/roundcastcrew.png" width="100%"/>      
-- Themes:
+      <img src="./images/roundcastcrew.png" width="100%"/>
+        
+  # Compatible with Flow/Scyfin/Ultrachromic themes:
+  
     - Orange
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Orange.css');`
         - <img src="./images/orange.png" width="100%"/>
@@ -66,13 +100,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
    - Darker icons/accents (Add this after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
-  # Compatible with Scyfin/Ultrachromic themes:     
-    - Seafoam
-        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css');`
-    - Coral
-        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css');`
-    - Snow
-        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css');`
+ 
   # Experimental (Works in progress)
     - Episode Grid Outline/Dim on hover
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-EpisodeGrid-outline.css');`
@@ -80,7 +108,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     - Horizontal-Scroll Episodes
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Scrollable-Episodes-WIP.css');`
         - <img src="./images/sidescroll-episodes-wip.gif" width="100%"/>
-    - Horizontal-Scroll Episodes (alt, contorls overlayed)
+    - Horizontal-Scroll Episodes (alt, controls overlayed)
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Scrollable-Episodes-ALT.css');`
         - <img src="./images/sidescroll-episodes-alt.gif" width="100%"/>
     - Animated Overlay (on Backdrops and Live TV section)
@@ -94,16 +122,8 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### **Installation:**
 
 ### Easy install (one-liner) 
-`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css');` 
+`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Oneliner.css');` 
 
-**(Mobile/Android one-liner)**: `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner-mobile.css');` 
-
-
- <img src="./images/ios.gif" width="60%"/><img src="./images/android.gif"  height="8%"/>
-- **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
-  - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
-- **Smaller Screen/Android fixes:** *if the indicators are too big* 
-  - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-smallscreen-fixes.css');`
 
 
 **Server-wide install:**
@@ -113,7 +133,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 * Near the bottom, under "Custom CSS code", paste the `@import url` for the base theme
     * Example:
     * <img src="./images/install-server-base.png" alt="install-server-base" width="80%"/>
-* Optional - Paste the `@import url` for any options / themes you may want
+* Optional - Paste the `@import url` for any options / themes / addons you may want
     * Example:
     * <img src="./images/install-server-options.png" alt="install-server-options" width="80%"/>
 * Click "Save"
@@ -130,7 +150,12 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         * If there is any server-wide custom CSS, you may want to enable "Disable server-provided custom CSS code", as the two themes WILL interfere with each other
     * Example:
     * <img src="./images/install-client-base.png" alt="install-client-base" width="80%"/>
-* Optional - Paste the `@import url` for any options / themes you may want
+* Optional - Paste the `@import url` for any options / themes / addons you may want
     * Example:
     * <img src="./images/install-client-options.png" alt="install-client-options" width="80%"/>
 * Click "Save"
+
+---
+  ###Credits:
+  All MLP pixel art by [Botchan-MLP](https://www.deviantart.com/botchan-mlp)
+  Base theme is [Flow](https://github.com/LitCastVlog/Flow) (fork of Scyfin/Ultrachromic)
