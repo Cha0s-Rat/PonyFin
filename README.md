@@ -60,9 +60,8 @@ Flow/Scyfin Addons:
 ### Extras (*smaller cast/crew, etc*) 
 `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/ScyFlow-Extras.css');`
 
- - B/W Logo (credits: [RoyalxZealot](https://www.steamgriddb.com/logo/128502))
  - Smaller Cast/Crew section
- - Hide "Upcoming on TV" and "Next Up" section in Season View
+ - Hide "Upcoming on TV" and "Next Up" sections in Season View
 
 ### Options (Add these after/under the base theme)
 - Enable Collapsible Drawer/Menu 
@@ -99,7 +98,7 @@ Flow/Scyfin Addons:
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Blue.css');`
         - <img src="./images/blue.png" width="100%"/>
 
-   - Darker icons/accents (Add this after everything else):
+   - Darker icons/OLED accents (Add this after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
  
