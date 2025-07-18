@@ -1,0 +1,443 @@
+/* MLP Theme for Jellyfin */
+/*PONYSPIN*/
+.mdl-spinner {
+    background: url("https://i.ibb.co/VpcfNHVN/loading.gif") 
+	no-repeat center center !important;
+    background-size: contain !important;
+}
+
+
+/* Nyan Rainbow Dash Slider */
+/* Hide default slider */
+.mdl-slider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 60px !important;
+    height: 40px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/*art credits: BotChan-MLP on DevianArt*/
+.mdl-slider::-webkit-slider-thumb {
+    background: url("https://i.ibb.co/FkNq6Mjf/rbd.gif") 
+	no-repeat center center !important;
+    background-size: contain !important;
+    
+}
+
+.mdl-slider::-moz-range-thumb {
+    width: 60px !important;
+    height: 40px !important;
+    background: url("https://i.ibb.co/FkNq6Mjf/rbd.gif") 
+	no-repeat center center !important;
+    background-size: contain !important;
+    border: none !important;
+}
+.sliderContainer {
+    min-height: 40px !important;
+    
+    
+}
+.mdl-slider:hover::-webkit-slider-thumb,
+.mdl-slider:active::-webkit-slider-thumb,
+.mdl-slider:focus::-webkit-slider-thumb {
+    background: url("https://i.ibb.co/FkNq6Mjf/rbd.gif") 
+    no-repeat center center !important;
+    background-size: contain !important;
+    transform: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    
+}
+/* Buffer Background */
+.mdl-slider-background-flex-container .mdl-slider-background-upper {
+    background: url("https://i.ibb.co/Kj9ZB0xX/bufferbg.gif") 
+	repeat-x !important;
+}
+/* Rainbow Progress */
+.mdl-slider-background-lower {
+    background: url("https://i.ibb.co/4nmbGCgP/progressbg.png") 
+	repeat-x !important; 
+}
+
+
+/* optional, apply to Cards/Home Screen */ 
+.itemProgressBar {
+    position: relative;
+    height: 15px;
+    overflow: visible;  
+}
+
+
+
+.itemProgressBarForeground::after {
+    content: "";
+    position: absolute;
+    right: -20px;
+    top: -9px;
+    width: 40px;
+    height: 150px;
+    background: url("https://i.ibb.co/KpF5VFPf/rbdsmall.gif")  
+    no-repeat !important;
+    z-index: 10;
+}
+
+
+.itemProgressBarForeground::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("https://i.ibb.co/Kj9ZB0xX/bufferbg.gif")
+} 
+
+
+
+
+
+
+
+/* Rainbow theme (doesn't work on JMP)*/
+/* Rainbow Theme (Animated) */
+:root {
+    --hue: 298; 
+    --saturation: 98%;
+    --lightness: 70%; 
+    --primary-accent-color: hsl(var(--hue), var(--saturation), var(--lightness));
+    --secondary-accent-color: hsla(var(--hue), var(--saturation), var(--lightness), 0.1);
+
+
+    /* Alternate accents */
+    --primary-alt1: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 15%));
+    --primary-alt2: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 20%));
+    --primary-alt3: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 25%));
+    --primary-alt4: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 30%));
+    --primary-alt5: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 35%));
+}
+
+@keyframes spin-hue {
+    from { --hue: 298; } 
+    to { --hue: 658; } 
+}
+
+:root {
+    animation: spin-hue 10s linear infinite;
+}
+
+@property --hue {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 298;
+}
+
+/* Nyan Rainbow Dash */
+/* forked from LitCastVlog/Flow (Nyan Cat Progress Bar) */
+
+/* Buffer Background */
+.mdl-slider-background-flex-container .mdl-slider-background-upper {
+    background: url("https://i.ibb.co/Kj9ZB0xX/bufferbg.gif") 
+	repeat-x !important;
+}
+
+/* Hide default slider */
+.mdl-slider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 60px !important;
+    height: 40px !important;
+    background: transparent !important;
+    border: none !important;
+    transform: translateX(-2px) !important;
+}
+
+
+
+
+
+
+
+
+
+/* Home Button Art */
+/* art credits: BotChan-MLP on DevianArt */
+/* Twilight Book JF Logo */
+.pageTitleWithDefaultLogo {
+    background-image: url("https://i.ibb.co/nNKTp1kd/pf.gif");
+}
+
+/* Resize Home Button */
+.emby-button.homeLibraryButton
+{
+    height: 70px
+}
+/* Twilight Default Icon */
+.emby-button.homeLibraryButton::after {
+    content: ""; 
+    background: url("https://i.ibb.co/206FZms1/button.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 120px; 
+    height: 115px;
+    z-index: 3;
+    transform: translateY(-8px)  translateX(-50px)!important;
+}
+
+/* Twilight Book Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(6)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/FqJD4HYw/button3.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 130px; 
+    height: 120px;
+    z-index: 3;
+    transform: translateY(-27px)  translateX(160px)!important;
+}
+
+/* Pinkie Home Icon*/
+.emby-button.homeLibraryButton.raised:nth-of-type(9)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/kgvMSdMT/button5.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-27px)  translateX(160px)!important;
+}
+
+/*  Sweetie Bell Home Icon */ 
+.emby-button.homeLibraryButton.raised:nth-of-type(4)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/whx4PSWL/music.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 140px; 
+    height: 110px;
+    z-index: 3;
+    transform: translateY(-29px)  translateX(150px)!important;
+}
+
+/* Derpy Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(7)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/k6z6jDyz/button6.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 110px; 
+    height: 110px;
+    z-index: 3;
+    transform: translateY(-15px)  translateX(160px)!important;
+}
+
+/* Rarity Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(5)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/0VcFKWPK/Button4.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 85px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-17px)  translateX(160px)!important;
+}
+
+
+/* Fluttershy Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(1)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/C3QRFt21/button1.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 90px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-23px)  translateX(165px)!important;
+}
+
+
+/* Trixie Home Icon */
+.emby-button.homeLibraryButton.raised:nth-of-type(3)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/RTCX5cmQ/button2.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 78px; 
+    height: 78px;
+    z-index: 3;
+    transform: translateY(-10px)  translateX(165px)!important;
+    
+}
+
+/* Pinkie Home Icon*/
+.emby-button.homeLibraryButton.raised:nth-of-type(8)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/99BBw3tL/button8.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 130px; 
+    height: 130px;
+    z-index: 3;
+    transform: translateY(-55px)  translateX(160px)!important;
+}
+/* AppleJack Home Icon*/
+.emby-button.homeLibraryButton.raised:nth-of-type(2)::after {
+    content: ""; 
+    background: url("https://i.ibb.co/rGFb3r1C/button7.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+   width: 80px; 
+    height: 90px;
+    z-index: 3;
+    transform: translateY(-15px)  translateX(165px)!important;
+}
+
+
+
+
+/* Spike Logout Icon */
+.exit_to_app.navMenuOptionIcon.material-icons { 
+visibility: hidden
+}
+.emby-button.btnLogout.lnkMediaFolder.navMenuOption::after {
+    content: ""; 
+    background: url("https://i.ibb.co/RfWdLHP/logout.gif") 
+    no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+   width: 65px; 
+    height: 65px;
+    z-index: 3;
+    transform: translateY(-15px)  translateX(-15px)!important;
+}
+
+
+/* Twilight Play Icon */
+.emby-button.detailButton.btnPlay.button-flat:before {
+    content: ""; 
+    background: url("https://i.ibb.co/FqJD4HYw/button3.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 180px; 
+    height: 185px;
+    z-index: 3;
+    transform: translateY(-105px)  translateX(-80px)!important;
+        pointer-events: none;
+
+}
+
+
+/* Fluttershy Heart Icon */
+.emby-button.detailButton.btnUserRating.button-flat:before {
+    content: ""; 
+    background: url("https://i.ibb.co/rGnXDtv2/love.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 80px; 
+    height: 80px;
+    z-index: 3;
+    transform: translateY(-56px)  translateX(-5px)!important;
+    opacity: 70%
+}
+
+/* Pinkie Shuffle Icon */
+.shuffle.detailButton-icon.material-icons::after {
+    content: ""; 
+    background: url("https://i.ibb.co/p69HJxns/shuffle.gif") 
+        no-repeat center center;
+    background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 60px; 
+    height: 60px;
+    z-index: 3;
+    transform: translateY(-45px)  translateX(-5px)!important;
+    opacity: 90%
+}
+
+/* Rarity Watched Icon */
+.playstatebutton-icon-unplayed.check.detailButton-icon.material-icons:after {
+        content: ""; 
+    background: url("https://i.ibb.co/zTPLCnGq/watched.gif") 
+        no-repeat center center;
+      background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 60px; 
+    height: 60px;
+    z-index: 3;
+    transform: translateY(-42px)  translateX(-5px)!important;
+    opacity: 90%
+}
+
+/* Spike Options Icon */
+.more_vert.detailButton-icon.material-icons:after {
+        content: ""; 
+    background: url("https://i.ibb.co/V7G4S8L/options.gif") 
+        no-repeat center center;
+      background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 55px; 
+    height: 55px;
+    z-index: 3;
+    transform: translateY(-42px)  translateX(6px)!important;
+    opacity: 90%
+}
+
+/* Applejack Trailer Icon */
+.theaters.detailButton-icon.material-icons:after {
+        content: ""; 
+    background: url("https://i.ibb.co/wrhqcGPF/trailer.gif") 
+        no-repeat center center;
+      background-size: contain; 
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 55px; 
+    height: 55px;
+    z-index: 3;
+    transform: translateY(-40px)  translateX(6px)!important;
+    opacity: 90%
+}
+
