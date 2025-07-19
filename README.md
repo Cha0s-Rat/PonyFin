@@ -52,6 +52,7 @@ Install Rainbow Animated BG Overlay (Enable Backdrops):
 Install Rainbow Theme (Doesn't work on JMP, defaults to Pink):
 
 `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Rainbow.css');` 
+
 ---
 ### WIP: Android/iPad: 
   <img src="./images/ipad.jpg" width="60%"/>
