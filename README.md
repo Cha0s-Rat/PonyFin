@@ -55,7 +55,7 @@ Install Rainbow Theme (Doesn't work on JMP, defaults to Pink):
 ---
 ### WIP: Android/iPad: 
   <img src="./images/ipad.jpg" width="60%"/>
-  <img src="./images/androidlandscape.jpg" width="60%"/><img src="./images/androidportrait.jpg" width="60%"/>
+  <img src="./images/androidlandscape.jpg" width="60%"/><img src="./images/androidportrait.jpg" width="20%"/>
 
 
 
