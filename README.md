@@ -52,7 +52,12 @@ Install Rainbow Animated BG Overlay (Enable Backdrops):
 Install Rainbow Theme (Doesn't work on JMP, defaults to Pink):
 
 `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Rainbow.css');` 
- 
+---
+### WIP: Android/iPad: 
+  <img src="./images/ipad.jpg" width="60%"/>
+  <img src="./images/androidlandscape.jpg" width="60%"/><img src="./images/androidportrait.jpg" width="60%"/>
+
+
 
 ---
 Flow/Scyfin Addons:
@@ -123,7 +128,11 @@ Flow/Scyfin Addons:
 ### **Installation:**
 
 ### Easy install (one-liner) 
-`@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Oneliner.css');` 
+## `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Oneliner.css');` 
+
+
+#### WIP: iPad Oneliner: `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Oneliner-iPad.css');` 
+#### WIP: Android Oneliner: `@import url('https://cdn.statically.io/gh/Cha0s-Rat/PonyFin/main/CSS/PonyFin-Oneliner-Smallscreen.css');` 
 
 
 
