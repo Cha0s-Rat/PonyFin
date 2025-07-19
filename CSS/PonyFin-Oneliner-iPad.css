@@ -1845,21 +1845,3 @@ input:not(.mdl-slider) {
     z-index: 3;
     transform: translateY(5%) translateX(145%) !important;  
 }
-
-/* Spike Logout Icon */
-.exit_to_app.navMenuOptionIcon.material-icons { 
-visibility: hidden
-}
-.emby-button.btnLogout.lnkMediaFolder.navMenuOption::after {
-    content: ""; 
-    background: url("https://i.ibb.co/RfWdLHP/logout.gif") 
-    no-repeat center center;
-    background-size: contain; 
-    position: absolute; 
-    top: 0;
-    left: 0; 
-   width: 55px; 
-    height: 55px;
-    z-index: 3;
-    transform: translateY(-10px)  translateX(-10px)!important;
-}
